@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FFFFFF;
+}
+.loginbox {
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 320px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.warp {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	border-top-width: 10px;
+	border-top-style: dashed;
+	border-top-color: #0000CC;
+}
+.warp .header {
+	height: 90px;
+	background-color: #0099FF;
+	position: relative;
+}
+.warp .header .heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	width: 150px;
+	margin-top: 30px;
+}
+
+.warp .header .name {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #000000;
+	text-decoration: none;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+.warp .header .topmenu {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+.warp .header .topmenu a {
+	color: #FFFFFF;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.warp .header .topmenu a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+.warp .header .welcome {
+	position: absolute;
+	right: 25px;
+	bottom: 20px;
+	font-size: 16px;
+	color: #003366;
+	font-style: italic;
+	font-weight: bold;
+}
+.warp .mainMenu {
+	background-color: #0078B3;
+	width: 250px;
+}
+.menu {
+	background-color: #0078B3;
+	padding-top: 10px;
+}
+.menu strong {
+	font-size:21px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	padding-left: 6px;
+}
+.menu a {
+	font-size:18px;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.menu a:hover {
+	color: #a00;
+	text-decoration:underline;
+}
+.warp .footer {
+	background-color: #CCCCCC;
+	padding: 10px;
+	font-size:14px;
+}
+.warp .content {
+	background-color: #FFFFFF;
+	padding-left: 256px;
+	width:680px;
+	float: right;	
+}
+.warp .content .form {
+	padding: 15px;
+	border: 1px solid #EAEAEA;
+}
+.warp .content .form #form p {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin: 0px;
+}.login a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
